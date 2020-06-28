@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stock Data Component</title>
+
+  <script type="module" src="/build/web-components-and-stencil.esm.js"></script>
+  <script nomodule src="/build/web-components-and-stencil.js"></script>
+
+</head>
+<body style="background-image: linear-gradient(to right, rgb(207, 250, 253), rgb(151, 166, 167));">
+  <div style="display:flex;">
+    <uc-stock-price placeholder="FNNNF, MSFT, NOK..."></uc-stock-price>
+    <uc-stock-finder placeholder="Finnair, IBM, BMW, Microsoft..."></uc-stock-finder>
+  </div>
+
+  <!-- <script>
+    const stockFinderEl = document.querySelector('uc-stock-finder');
+    stockFinderEl.addEventListener('ucSymbolSelected', event => {
+      console.log(event);
+    });
+  </script> -->
+
+</body>
+</html>
